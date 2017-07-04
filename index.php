@@ -866,19 +866,7 @@ Product Family</b>
 
 <div class=\"panel-body\">
 
-<div class=\"container\"> 
-	
-	<?php
-	     include ('connection.php');
-			    $result = pg_query($pg_conn, "SELECT Id, sfid, Name, isactive, productcode, description, country__c, state__c FROM salesforce.Product2");
-				if (!$result) {
-  							echo "An error occurred.\n";
-  							exit;
-								}
-			    	else{
-			    		echo "DB connection successful";
-			    					}
-	?>
+<div class=\"container\">
 	
 	<table class=\"table table-striped\" cellspacing="10">
 
