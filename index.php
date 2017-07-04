@@ -219,15 +219,15 @@
                     </div>
                     <div class="portfolio-caption">
                         <h4>All Products</h4>
-			    
+			    include ('connection.php');
 			    $result = pg_query($pg_conn, "SELECT Id, sfid, Name, isactive, productcode, description, country__c, state__c FROM salesforce.Product2");
-if (!$result) {
-  echo "An error occurred.\n";
-  exit;
-}
-			    else{
-			    echo "DB connection successful";
-			    }
+				if (!$result) {
+  							echo "An error occurred.\n";
+  							exit;
+								}
+			    	else{
+			    		echo "DB connection successful";
+			    					}
 			    
                     </div>
                 </div>
