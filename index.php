@@ -218,17 +218,7 @@
                         <img class="img-fluid" src="img/portfolio/all_prods.png" alt="">
                     </div>
                     <div class="portfolio-caption">
-                        <h4>All Products</h4>
-			    include ('connection.php');
-			    $result = pg_query($pg_conn, "SELECT Id, sfid, Name, isactive, productcode, description, country__c, state__c FROM salesforce.Product2");
-				if (!$result) {
-  							echo "An error occurred.\n";
-  							exit;
-								}
-			    	else{
-			    		echo "DB connection successful";
-			    					}
-			    
+			    <h4>All Products</h4>
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -876,7 +866,21 @@ Product Family</b>
 
 <div class=\"panel-body\">
 
-<div class=\"container\"> <table class=\"table table-striped\" cellspacing="10">
+<div class=\"container\"> 
+	
+	<?php
+	     include ('connection.php');
+			    $result = pg_query($pg_conn, "SELECT Id, sfid, Name, isactive, productcode, description, country__c, state__c FROM salesforce.Product2");
+				if (!$result) {
+  							echo "An error occurred.\n";
+  							exit;
+								}
+			    	else{
+			    		echo "DB connection successful";
+			    					}
+	?>
+	
+	<table class=\"table table-striped\" cellspacing="10">
 
 <tr>
 
