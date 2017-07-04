@@ -45,11 +45,6 @@
 </head>
 
 <body id="page-top">
-
-	<?php
-echo "Hello";
-
-?>
 	
 <!-- Bootstrap core JavaScript -->		
     <script src="jquery.min.js"></script>		
@@ -224,6 +219,16 @@ echo "Hello";
                     </div>
                     <div class="portfolio-caption">
                         <h4>All Products</h4>
+			    
+			    $result = pg_query($pg_conn, "SELECT Id, sfid, Name, isactive, productcode, description, country__c, state__c FROM salesforce.Product2");
+if (!$result) {
+  echo "An error occurred.\n";
+  exit;
+}
+			    else{
+			    echo "DB connection successful";
+			    }
+			    
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
