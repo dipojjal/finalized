@@ -706,7 +706,7 @@
 	<input type="text" name="country" placeholder="Enter Product Country"></br>
 			
 		<b>Product State</b>  
-	<input type="text" name="country" placeholder="Enter Product State"></br>	
+	<input type="text" name="state" placeholder="Enter Product State"></br>	
 			    
 <b>Description</b>  </br><br/>
 <textarea name="description" rows="5" cols="40"></textarea>
