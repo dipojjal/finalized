@@ -40,8 +40,10 @@
 
 
     </style>
+<!-- Custom scripts for this template -->'
+<script src=\"agency.min.js\"></script>';
 
-</head>
+		</head>
 
 <body id="page-top">
 	
@@ -939,9 +941,6 @@ echo '</div>';
 echo '</div>';
 echo '</div>';
 echo '</div>';
-echo '';
-echo '<!-- Custom scripts for this template -->';
-echo '<script src=\"agency.min.js\"></script>';
 echo '';
 ?>
 </body>
