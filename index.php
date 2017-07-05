@@ -40,8 +40,6 @@
 
 
     </style>
-<!-- Custom scripts for this template -->
-<script src="agency.min.js"></script>
 
 		</head>
 
@@ -943,6 +941,8 @@ echo '</div>';
 echo '</div>';
 
 ?>
+<!-- Custom scripts for this template -->
+<script src="agency.min.js"></script>
 </body>
 
 </html>
