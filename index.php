@@ -941,7 +941,7 @@ echo '</div>';
 echo '</div>';
 echo '';
 echo '<!-- Custom scripts for this template -->';
-echo '<script src="agency.min.js"></script>';
+echo '<script src=\"agency.min.js\"></script>';
 echo '';
 ?>
 </body>
