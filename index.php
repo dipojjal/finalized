@@ -904,17 +904,17 @@ while ($row = pg_fetch_row($result)) {
   echo "</div>";
 
 echo '</div>';
-echo '';
+
 echo '</div>';
-echo '';
-echo '</div>';
-echo '</div>';
+
 echo '</div>';
 echo '</div>';
 echo '</div>';
 echo '</div>';
 echo '</div>';
-echo '';
+echo '</div>';
+echo '</div>';
+
 echo '<!-- Modal 6 -->';
 echo '<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">';
 echo '<div class="modal-dialog">';
@@ -931,9 +931,9 @@ echo '<div class="col-lg-8 offset-lg-2">';
 echo '<div class="modal-body">';
 echo '<!-- Project Details Go Here -->';
 echo '<h2>Product Catalog</h2>';
-echo '';
+
 echo 'Product catalog using lightning out... Coming soon!';
-echo '';
+
 echo '</div>';
 echo '</div>';
 echo '</div>';
@@ -941,7 +941,7 @@ echo '</div>';
 echo '</div>';
 echo '</div>';
 echo '</div>';
-echo '';
+
 ?>
 </body>
 
