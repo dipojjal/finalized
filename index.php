@@ -40,8 +40,8 @@
 
 
     </style>
-<!-- Custom scripts for this template -->'
-<script src=\"agency.min.js\"></script>';
+<!-- Custom scripts for this template -->
+<script src="agency.min.js"></script>
 
 		</head>
 
