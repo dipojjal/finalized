@@ -57,7 +57,6 @@ echo'Username or password is wrong';
 }
 
 }
-?>
 
 <form name="login_form" method="POST" action="">
   
@@ -74,3 +73,4 @@ echo'Username or password is wrong';
  </fieldset>
 
 </form>
+?>
