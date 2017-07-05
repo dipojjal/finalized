@@ -733,20 +733,18 @@ Product Family</b>
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 
-                                <form>
+                                <form method="POST" action="searchedProds.php">
 <fieldset>
     <legend><h2>Update Product</h2></legend>
     <div>
 <b>Product Code</b>
 
-  <input type="text" id="s" name="search" placeholder="Search.." align=right>
-<button class="button"><span>Update</span></button>
+  <input type="text" name="search" placeholder="Search.." align=right>
+<button class="button" type="submit"><span>Update</span></button>
 
 </fieldset>
 
 </form>
-
-
                             </div>
                         </div>
                     </div>
