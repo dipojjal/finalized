@@ -1,4 +1,3 @@
-<link rel = "stylesheet" type = "text/css" href = "myfile.css" />
 <?php
 
 session_start();
