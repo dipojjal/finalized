@@ -102,7 +102,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Wipro Product Management System</div>
                 <div class="intro-heading"></div>
-                <a href="login.html" class="btn btn-xl">Login</a>
+                <a href="login.html" class="btn btn-xl">Login/Signup</a>
             </div>
         </div>
     </header>
