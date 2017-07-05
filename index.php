@@ -91,9 +91,6 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#contact">Contact</a>
                     </li>
-		    <li class="nav-item">
-                        <a class="nav-link" href="login.html">Login</a>
-                    </li>
                 </ul>
             </div>
         </div>
@@ -105,7 +102,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Wipro Product Management System</div>
                 <div class="intro-heading"></div>
-                <a href="#features" class="btn btn-xl">Tell Me More</a>
+                <a href="login.html" class="btn btn-xl">Login</a>
             </div>
         </div>
     </header>
