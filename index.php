@@ -733,7 +733,7 @@ Product Family</b>
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                                 
-                                <form method="POST" action="searchedProds.php">
+                                <form name="search-prods" action="searchedProds.php" method="POST">
 <fieldset>
     <legend><h2>Update Product</h2></legend>
     <div>
