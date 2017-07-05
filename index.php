@@ -824,7 +824,7 @@ Product Family</b>
 
 
 
-                                <button class="button" type="submit"><span><b>Search</b></span></button>
+                                <input type="submit" class="button"><span><b>Search</b></span></button>
 
                             </fieldset>
 
