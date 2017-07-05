@@ -680,14 +680,16 @@
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
                               
-<form>
+<form name="create-product" action="createprod.php" method="POST">
 <fieldset class="textt">
     <legend><h2>Create Product</h2></legend>
-<b>Product Name</b> <input type="text" name="name" placeholder="Enter Product Name"></br>
+<b>Product Name</b> 
+	<input type="text" name="name" placeholder="Enter Product Name"></br>
 
-<b style="opacity: 1;">Product Code</b>  <input type="text" name="id" placeholder="Enter Product Name"></br>
-<p><b>
-Product Family</b>
+<b>Product Code</b>  
+	<input type="text" name="prodcode" placeholder="Enter Product code"></br>
+				    
+<p><b>Product Family</b>
 <select name="family">
 <option value="">Select</option>
 <option value="m">Medicare</option>
@@ -699,8 +701,15 @@ Product Family</b>
 
 <b>isActive</b>  <input type="checkbox" name="isActive"></br>
 </br>
+			    
+<b>Product Country</b>  
+	<input type="text" name="country" placeholder="Enter Product Country"></br>
+			
+		<b>Product State</b>  
+	<input type="text" name="country" placeholder="Enter Product State"></br>	
+			    
 <b>Description</b>  </br><br/>
-<textarea name="comment" rows="5" cols="40"></textarea>
+<textarea name="description" rows="5" cols="40"></textarea>
 </br></br>
 <input type="submit" value="Save"></t>
 <input type="reset" value="Reset">
