@@ -1,24 +1,23 @@
 <html>
-	<head><title>Login- Wipro Product Management Sysem</title>
-	<link rel = "stylesheet" type = "text/css" href = "myfile.css" />
-	</head>
-	
-	<body>
-		
-<form name="login_form" method="POST" action="loginProcess.php">
+<head>
+<link rel = "stylesheet" type = "text/css" href = "myfile.css" />
+</head>
+<body><!-- multistep form -->
+
+<form id="msform">
   
   <fieldset>
     <img src="Wipro_Logo_RGB.png" height="100px" width="150px"></br></br>
-    <h1 class="fs-heading">Login to your account</h1></br>
-    <input type="text" name="username" placeholder="Username" /><br/>
-    <input type="password" name="password" placeholder="Password" /><br/>
-	
-    <input type="submit" name="login" class="next action-button" value="Submit" /> <br/> <br/>
+    <h1 class="fs-heading" >Login to your account</h1></br>
+    <input type="text" name="email" placeholder=" Username"/><br/>
+    <input type="password" name="pass" placeholder="Password" /><br/>
+    <input type="button" name="Login" class="next action-button" value="Submit" /> <br/> <br/>
     <hr>
-    <br/>
+    <br/> 
     <h3 class="fs-title" >New User? <a href="signup.html">Sign Up</a></h3>
  
  </fieldset>
+
 
 </form>
 </body>
