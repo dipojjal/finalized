@@ -14,7 +14,7 @@
     <input type="submit" name="Login" class="next action-button" value="Submit" /> <br/> <br/>
     <hr>
     <br/> 
-    <h3 class="fs-title" >New User? <a href="signup.html">Sign Up</a></h3>
+    <h3 class="fs-title" >New User? <a href="signup.php">Sign Up</a></h3>
  
  </fieldset>
 
