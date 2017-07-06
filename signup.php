@@ -16,7 +16,7 @@
     <input type="button" name="Login" class="next action-button" value="submit" /> <br/> <br/>
     <hr>
     <br/> 
-   <h3 class="fs-title" >Already a user? <a href="login.html">Login</a></h3>
+   <h3 class="fs-title" >Already a user? <a href="login.php">Login</a></h3>
  
  </fieldset>
 
