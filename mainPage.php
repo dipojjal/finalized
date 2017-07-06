@@ -105,7 +105,7 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Wipro Product Management System</div>
                 <div class="intro-heading"></div>
-                <a href="login.html" class="btn btn-xl">Main Menu</a>
+                <a href="#portfolio" class="btn btn-xl">Main Menu</a>
             </div>
         </div>
     </header>
