@@ -4,7 +4,7 @@
 </head>
 <body><!-- multistep form -->
 
-<form id="msform">
+<form id="msform" method="POST" action="loginProcess.php">
   
   <fieldset>
     <img src="Wipro_Logo_RGB.png" height="100px" width="150px"></br></br>
