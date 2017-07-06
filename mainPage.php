@@ -880,6 +880,13 @@
                                 <div class=\"panel-heading\"><center><h2>All Products</h2></center></div>
 
 <?php
+				    session_start();
+				    
+				    if(!isset($_SESSION['user_email'])){
+				    header('location: not_logged_in.php');
+					exit();   
+				    }
+				    
 function pg_connection_string_from_database_url() {
   extract(parse_url($_ENV["DATABASE_URL"]));
   return "user=$user password=$pass host=$host dbname=" . substr($path, 1);
