@@ -74,9 +74,7 @@
                     <li class="nav-item">
                         <a class="nav-link" href="#features">Features</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="#portfolio">Menu</a>
-                    </li>
+                   
                     <li class="nav-item">
                         <a class="nav-link" href="#about">Process</a>
                     </li>
@@ -138,98 +136,6 @@
                     </span>
                     <h4 class="service-heading">Security</h4>
                     <p class="text-muted">All data is kept secure in multiple databases in multiple servers. So, if anything happens with one server, you can always get the data from another server.</p>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!-- Menu -->
-    <section class="bg-faded" id="portfolio">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Menu</h2>
-                    <h3 class="section-subheading text-muted">Manage your products...</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <div class="portfolio-link" data-toggle="modal" href="#portfolioModal1">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-5x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="img/portfolio/create.png" alt="">
-                    </div>
-                    <div class="portfolio-caption">
-                        <h4>Create Product</h4>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <div class="portfolio-link" data-toggle="modal" href="#portfolioModal2">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-retweet fa-5x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="img/portfolio/update.png" alt="">
-                    </div>
-                    <div class="portfolio-caption">
-                        <h4>Update Product</h4>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <div class="portfolio-link" data-toggle="modal" href="#portfolioModal3">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-trash fa-5x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="img/portfolio/delete.png" alt="">
-                    </div>
-                    <div class="portfolio-caption">
-                        <h4>Delete Product</h4>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <div class="portfolio-link" data-toggle="modal" href="#portfolioModal4">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-search fa-5x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="img/portfolio/search.png" alt="">
-                    </div>
-                    <div class="portfolio-caption">
-                        <h4>Search Products</h4>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <div class="portfolio-link" data-toggle="modal" href="#portfolioModal5">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-th-list fa-5x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="img/portfolio/all_prods.png" alt="">
-                    </div>
-                    <div class="portfolio-caption">
-			    <h4>All Products</h4>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <div class="portfolio-link" data-toggle="modal" href="#portfolioModal6">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-usd fa-5x"></i>
-                            </div>
-                        </div>
-                        <img class="img-fluid" src="img/portfolio/catalog.png" alt="">
-                    </div>
-                    <div class="portfolio-caption">
-                        <h4>Product Catalog</h4>
-                    </div>
                 </div>
             </div>
         </div>
