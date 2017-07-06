@@ -32,7 +32,7 @@ if($rows > 0){
 $_SESSION['is_logged_in']= true;
 $_SESSION['user_email']= $username;
 
-header('location: mainPage.php')
+header('location: mainPage.php');
 
 }
 
