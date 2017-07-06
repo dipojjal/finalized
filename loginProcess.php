@@ -15,15 +15,16 @@ echo "Please enter values in username and password fields";
 
 else{
 
-  $password= sha1($password);
+  
 
 	function pg_connection_string_from_database_url() {
   extract(parse_url($_ENV["DATABASE_URL"]));
   return "user=$user password=$pass host=$host dbname=" . substr($path, 1);
 }
+	
 $pg_conn = pg_connect(pg_connection_string_from_database_url());
-
-$result = pg_query($pg_conn, "SELECT username__c, password__c FROM salesforce.Heroku_User__c where username__c= '$username' AND password__c= '$password' ");
+$pwd= sha1($password);
+$result = pg_query($pg_conn, "SELECT username__c, password__c FROM salesforce.Heroku_User__c where username__c= '$username' AND password__c= '$pwd' ");
 
 $rows = pg_num_rows($result);
 
