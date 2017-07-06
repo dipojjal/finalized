@@ -4,7 +4,7 @@
 	</head>
 	
 	<body>
-	
+		
 <form name="login_form" method="POST" action="loginProcess.php">
   
   <fieldset>
