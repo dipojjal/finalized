@@ -23,7 +23,7 @@ else{
 }
 $pg_conn = pg_connect(pg_connection_string_from_database_url());
 
-$result = pg_query($pg_conn, "SELECT email__c, password__c FROM salesforce.Heroku_User__c where email__c= '$username' && password__c= '$password' ");
+$result = pg_query($pg_conn, "SELECT username__c, password__c FROM salesforce.Heroku_User__c where username__c= '$username' AND password__c= '$password' ");
 
 $rows = pg_num_rows($result);
 
