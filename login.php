@@ -9,8 +9,8 @@
   <fieldset>
     <img src="Wipro_Logo_RGB.png" height="100px" width="150px"></br></br>
     <h1 class="fs-heading" >Login to your account</h1></br>
-    <input type="text" name="email" placeholder=" Username"/><br/>
-    <input type="password" name="pass" placeholder="Password" /><br/>
+    <input type="text" name="username" placeholder=" Username"/><br/>
+    <input type="password" name="password" placeholder="Password" /><br/>
     <input type="submit" name="Login" class="next action-button" value="Submit" /> <br/> <br/>
     <hr>
     <br/> 
