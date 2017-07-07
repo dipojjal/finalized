@@ -1,8 +1,11 @@
 <?php
 
-	$username= $_POST['username'];
+	$name= $_POST['name'];
+	$username= $_POST['email'];
 	$password= $_POST['password'];
-if(empty($username) || empty($password)){
+	$about= $_POST['about'];
+	
+if(empty($name) || empty($username) || empty($password)){
 echo "Please enter values in username and password fields";
 }
 else{
@@ -15,7 +18,7 @@ else{
 $pg_conn = pg_connect(pg_connection_string_from_database_url());
 $pwd= md5($password);
 
-$create = pg_query($pg_conn, "insert into salesforce.Heroku_User__c (username__c, Pass__c) values ('$username', '$pwd') ");
+$create = pg_query($pg_conn, "insert into salesforce.Heroku_User__c (Name__c, username__c, Pass__c, About__c) values ('$name', '$username', '$pwd', '$about') ");
 
 if(!$create){
   echo '<script language="javascript">';
