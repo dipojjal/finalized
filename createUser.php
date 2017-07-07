@@ -18,19 +18,15 @@ else{
 $pg_conn = pg_connect(pg_connection_string_from_database_url());
 $pwd= md5($password);
 
-$create = pg_query($pg_conn, "insert into salesforce.Heroku_User__c (Name__c, username__c, Pass__c, about__c) values ('$name', '$username', '$pwd', '$about') ");
+$create = pg_query($pg_conn, "insert into salesforce.Heroku_User__c (name, username__c, pass__c, about__c) values ('$name', '$username', '$pwd', '$about') ");
 
 if(!$create){
-  echo '<script language="javascript">';
-  echo 'alert(\"User could not be created...\")';
-  echo '</script>';
+  echo "User could not be created...";
 }
 
   else{
-  echo '<script language="javascript">';
-  echo 'alert(\"User created successfully...\")';
-  echo '</script>';
-    header('location: login.php');
+  echo "User created successfully...";
+  header('location: login.php');
   }
 
 }
