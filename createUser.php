@@ -15,7 +15,7 @@ else{
 $pg_conn = pg_connect(pg_connection_string_from_database_url());
 $pwd= md5($password);
 
-$create = pg_query($pg_conn, "insert into salesforce.Heroku_User__c (username__c, pass__c) values ('$username', '$pwd') ");
+$create = pg_query($pg_conn, "insert into salesforce.Heroku_User__c (username__c, Pass__c) values ('$username', '$pwd') ");
 
 if(!$create){
   echo '<script language="javascript">';
