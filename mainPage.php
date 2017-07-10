@@ -936,35 +936,31 @@ echo '</div>';
 echo '</div>';
 echo '</div>';
 echo '</div>';
-
-echo '<!-- Modal 6 -->';
-echo '<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">';
-echo '<div class="modal-dialog">';
-echo '<div class="modal-content">';
-echo '<div class="close-modal" data-dismiss="modal">';
-echo '<div class="lr">';
-echo '<div class="rl">';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '<div class="container">';
-echo '<div class="row">';
-echo '<div class="col-lg-8 offset-lg-2">';
-echo '<div class="modal-body">';
-echo '<!-- Project Details Go Here -->';
-echo '<h2>Product Catalog</h2>';
-
-echo 'Product catalog using lightning out... Coming soon!';
-
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-echo '</div>';
-
 ?>
+<!-- Modal 6 -->;
+<div class="portfolio-modal modal fade" id="portfolioModal6" tabindex="-1" role="dialog" aria-hidden="true">;
+<div class="modal-dialog">;
+<div class="modal-content">;
+<div class="close-modal" data-dismiss="modal">;
+<div class="lr">;
+<div class="rl">;
+</div>;
+</div>;
+</div>;
+<div class="container">;
+<div class="row">;
+<div class="col-lg-8 offset-lg-2">;
+<div class="modal-body">;
+<!-- Project Details Go Here -->;
+<h2>Product Catalog</h2>;
+</div>;
+</div>;
+</div>;
+</div>;
+</div>;
+</div>;
+</div>;
+
 <!-- Custom scripts for this template -->
 <script src="agency.min.js"></script>
 </body>
