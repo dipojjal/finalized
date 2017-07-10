@@ -29,7 +29,7 @@ $result = pg_query($pg_conn, "SELECT username__c, Pass__c FROM salesforce.Heroku
 $rows = pg_num_rows($result);
 
 if($rows > 0){
-	if($row[1]==$password){
+	if($row[1]=$password){
 $_SESSION['is_logged_in']= true;
 $_SESSION['user_email']= $username;
 
