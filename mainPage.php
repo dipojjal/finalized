@@ -56,6 +56,11 @@
     <script src="jqBootstrapValidation.js"></script>		
     <script src="contact_me.js"></script>		
 
+	
+	if(!isset($_SESSION['is_logged_in'])){
+	echo"The user is not logged in!";
+	exit;
+	}
 
     <!-- Navigation -->
     <nav class="navbar fixed-top navbar-toggleable-md navbar-inverse" id="mainNav">
