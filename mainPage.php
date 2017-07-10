@@ -49,8 +49,7 @@
 	session_start();
 	
 	if(!isset($_SESSION['is_logged_in'])){
-	echo"The user is not logged in!";
-	exit;
+	header('location: index.php');
 	}
 	
 	?>
