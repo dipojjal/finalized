@@ -6,6 +6,13 @@
 
 <form id="msform" method="POST" action="loginProcess.php">
   
+  <?php
+  
+  if($isset($_SESSION('is_logged_in'))){
+  header('location: mainPage.php');
+  }
+  ?>
+  
   <fieldset>
     <img src="Wipro_Logo_RGB.png" height="100px" width="150px"></br></br>
     <h1 class="fs-heading" >Login to your account</h1></br>
