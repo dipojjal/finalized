@@ -20,7 +20,7 @@ function pg_connection_string_from_database_url() {
   $productDescription= $_POST['description'];
   
   $pg_conn = pg_connect(pg_connection_string_from_database_url());
-  $query= "insert into salesforce.Product2 (Name, productcode, family, isactive, country__c, state__c, description) Values ('$name', '$productCode', '$productFamily', '$isActive', '$productCountry', '$productState', '$productDescription')";
+  $query= "insert into salesforce.Product2 (Name, productcode, family, isactive, country__c, state__c, description) Values ('$name', '$productCode', '$productFamily', '$isActive', '$productCountry', '$productState', '$productDescription');";
   
   $createProd = pg_query($pg_conn, $query);
   
