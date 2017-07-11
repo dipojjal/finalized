@@ -24,7 +24,7 @@ else{
 	
 $pg_conn = pg_connect(pg_connection_string_from_database_url());
 $pwd= md5($password);
-$result = pg_query($pg_conn, "SELECT username__c, Pass__c FROM salesforce.Heroku_User__c WHERE username__c= '$username' AND Pass__c= '$pwd' Limit 1");
+$result = pg_query($pg_conn, "SELECT username__c, Pass__c FROM salesforce.Heroku_User__c WHERE username__c= '$username' AND Pass__c= '$pwd' Limit 1;");
 
 $rows = pg_num_rows($result);
 
