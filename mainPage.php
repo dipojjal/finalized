@@ -66,7 +66,9 @@
     <script src="contact_me.js"></script>		
 
     <!-- Navigation -->
-<?php include 'header.php'?>
+	
+	
+	
     <!-- Services -->
     <section id="features">
         <div class="container">
