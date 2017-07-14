@@ -705,7 +705,7 @@
 						<div class="modal-body">
 							<!-- Project Details Go Here -->
 							
-							<form>
+<form name="updateForm" action="updateForm.php" method="POST">
 <fieldset>
 <legend><h3>Update Product</h3></legend>
 <div>
@@ -742,7 +742,7 @@
 						<div class="modal-body">
 							<!-- Project Details Go Here -->
 							
-							<form>
+							<form action="deleteProduct.php" method="POST">
 <fieldset>
 <legend><h3>Delete Product</h3></legend>
 <div>
