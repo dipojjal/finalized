@@ -618,11 +618,8 @@
     </section>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-                    <span class="copyright">Copyright &copy; Wipro Product Management System 2017</span>
-        </div>
-    </footer>
+    
+	<?php include 'footer.php'; ?>
 
     <!-- Portfolio Modals -->
 
@@ -839,7 +836,9 @@
                                 <div class=\"panel-heading\"><center><h2>All Products</h2></center></div>
 <div style="clear:both; font-size=60px">Hello, php starts here</div>
 <?php
-include('connection.php'); //connect				    
+
+	include 'connection.php'; //connect
+	
  $result = pg_query($pg_conn, "SELECT Id, sfid, Name, isactive, productcode, description, country__c, state__c FROM salesforce.Product2");
 if (!$result) {
   echo "An error occurred.\n";
