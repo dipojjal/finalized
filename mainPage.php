@@ -839,12 +839,7 @@
                                 <div class=\"panel-heading\"><center><h2>All Products</h2></center></div>
 <div style="clear:both; font-size=60px">Hello, php starts here</div>
 <?php
-				    
-function pg_connection_string_from_database_url() {
-  extract(parse_url($_ENV["DATABASE_URL"]));
-  return "user=$user password=$pass host=$host dbname=" . substr($path, 1);
-}
-$pg_conn = pg_connect(pg_connection_string_from_database_url());
+include('connection.php'); //connect				    
  $result = pg_query($pg_conn, "SELECT Id, sfid, Name, isactive, productcode, description, country__c, state__c FROM salesforce.Product2");
 if (!$result) {
   echo "An error occurred.\n";
