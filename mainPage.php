@@ -67,7 +67,7 @@
 
     <!-- Navigation -->
 	
-	
+	<?php include 'header.php';?>
 	
     <!-- Services -->
     <section id="features">
