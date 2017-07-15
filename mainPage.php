@@ -711,7 +711,7 @@
 <div>
 <b>Product Code</b>
 
-<input type="text" name="search" placeholder="Search.." align=right>
+<input type="text" name="Id" placeholder="Search..." align=right>
 
 <div class="modal-footer">
 	 <button class="btn btn-primary" type="submit"><span>Update</span></button>
