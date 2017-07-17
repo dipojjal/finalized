@@ -850,7 +850,7 @@
 <div style="clear:both; font-size=60px">Hello, php starts here</div>
 <?php
 include('connection.php'); //connect				    
- $result = pg_query($pg_conn, "SELECT Id, sfid, name, firstname, lastname, email,  status, city, state, company, country, CreatedDate, description, Push_To_Heroku__c FROM salesforce.Lead");
+ $result = pg_query($pg_conn, "select Id, sfid, name, firstname, lastname, email,  status, city, state, company, country, CreatedDate, description, Push_To_Heroku__c FROM salesforce.lead;");
 if (!$result) {
   echo "An error occurred.\n";
   exit;
