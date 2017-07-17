@@ -22,7 +22,7 @@
     <hr>
     <br/> 
     <h3 class="fs-title" >New User? <a href="signup.php">Sign Up</a></h3>
-    <h3 class="fs-title" >Forgot Password? <a href="forgot.html">Click Here</a></h3>
+    <h3 class="fs-title" >Forgot Password? <a href="forgot.php">Click Here</a></h3>
  
  </fieldset>
 
